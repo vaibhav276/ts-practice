@@ -1,1 +1,1 @@
-export * from './1d-largest';
+export * from './largest';
