@@ -18,7 +18,6 @@ export const largest2d = (xss: number[][], i: number): number => {
         return largest1d(xss[i], 0);
     }
     const largest = largest1d(xss[i], 0);
-    console.log('largest', largest);
     const restlargest = largest2d(xss, i + 1);
     return largest > restlargest ? largest : restlargest;
 }
